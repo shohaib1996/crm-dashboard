@@ -102,6 +102,9 @@ import LockScreen from "../pages/AuthenticationInner/auth-lock-screen"
 import UserProfile from "../pages/Authentication/user-profile"
 import PagesProfile from "../pages/Utility/pages-profile"
 import Dashboard2 from "../pages/Dashboard2"
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const userRoutes = [
   { path: "/dashboard", component: <Dashboard /> },

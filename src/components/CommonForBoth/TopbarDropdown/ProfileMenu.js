@@ -14,7 +14,6 @@ import { connect } from "react-redux"
 import { Link } from "react-router-dom"
 
 // users
-import user4 from "../../../assets/images/users/avatar-4.jpg"
 import withRouter from "../../Common/withRouter"
 
 const ProfileMenu = props => {

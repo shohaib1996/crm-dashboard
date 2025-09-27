@@ -7,7 +7,6 @@ import { Link } from "react-router-dom"
 import { withTranslation } from "react-i18next"
 import SidebarContent from "./SidebarContent"
 
-import avatar2 from "../../assets/images/users/avatar-2.jpg"
 import withRouter from "../Common/withRouter"
 
 const Sidebar = props => {

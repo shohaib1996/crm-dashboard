@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 //Import Breadcrumb
 import Breadcrumbs from "../../components/Common/Breadcrumb"
 import { Card, CardBody, Col, Input, Label, Nav, NavItem, NavLink, Progress, Row, TabContent, TabPane } from 'reactstrap'
-import avatar2 from "../../assets/images/users/avatar-2.jpg"
 import classnames from "classnames"
 import ProfileRevenue from './ProfileRevenue'
 import { Link } from 'react-router-dom'
